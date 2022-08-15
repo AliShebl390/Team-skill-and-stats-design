@@ -5,7 +5,7 @@
 
 :root {
     --main-color: #f6f6f6;
-    --second-color: #0075ff;
+    --second-color: #03a9f4;
 }
 
 body {
@@ -77,7 +77,7 @@ header .container ul li {
         margin-right: 10px;
     }
 }
-header .container ul a li {
+header .container a {
     color: black;
 }
 
@@ -218,3 +218,62 @@ main p {
     background-color: #218c74;
 }
 /* End Done*/
+/* Start Skills */
+.skills {
+    background-color: var(--main-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+
+.skills h3 {
+    text-align: center;
+}
+
+.skills .prog-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills .prog-holder h4{
+    width: 80px;
+    text-align: right;
+}
+
+.skills .prog {
+    width: 80%;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.skills .prog span {
+    height: 100%;
+    background-color: var(--second-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+} 
+/* End Skills */
+/* Start footer */
+footer {
+    background-color: #333333;
+    padding: 5px 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container p {
+    font-size: 12px;
+    color: white;
+}
+
+footer span {
+    color: var(--second-color);
+}
+/* End footer */
